@@ -1,0 +1,65 @@
+.parent{
+    height: 670px;
+    width: 100%;
+    display: flex;
+}
+.left{
+    height: 670px;
+    width: 50%;
+}
+.right{
+    height: 670px;
+    width: 50%;
+}
+.RightPhoto{
+    padding: 35px;
+    margin-top: 50px;
+}
+.happening{
+    font-size: 80px;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: rgb(56,56,56);
+    padding-left: 35px;
+    margin-top: -80px;
+}
+.join{
+    font-size: 40px;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: rgb(56,56,56);
+    padding-left: 35px;
+    margin-top: -50px;
+}
+.box{
+    display: grid;
+    padding-left: 35px;
+}
+input[type=text], input[type=password] {
+    width: 45%;
+    padding: 10px 10px;
+    margin: 5px;
+    border: 1px solid grey;
+    border-radius: 10em;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+} 
+input:hover{
+    background-color: aliceblue;
+}
+.line{
+    font-size: 13px;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.line1 , .line2 , .Account{
+    display: flex;
+}
+.a , .c , .g{
+    color: grey;
+}
+.signIn{
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.words{
+    display: flex;
+    color: gray;
+}
